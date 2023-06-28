@@ -1,0 +1,18 @@
+## What is a Module?
+
+Consider a module to be the same as a code library.
+A file containing a set of functions you want to include in your application.
+
+Built-in Modules
+External Modules
+
+## What is PIP?
+
+PIP is a package manager for Python packages, or modules if you like.
+install/ remove/ list package
+
+
+
+Module: simple Python file, contains collection of functions
+Package: simple directory, collection of Modules
+Library: collection of related functionality of codes

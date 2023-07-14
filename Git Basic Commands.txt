@@ -11,7 +11,7 @@ git commit -a -m "Something"                                                    
 
 Modifying With Previous Commit Message:
 
-git commit ammend                                                                                 to modify previos commit message
+git commit --amend -m "Something"                                                                 to modify previous commit message
 
 
 
@@ -25,17 +25,17 @@ git diff --staged                                                               
 
 Remote Commands:
 
-git remote add origin "url"                                                                       to add your github repository
+git remote add origin "url"                                                                       to add your GitHub repository
 git remote -v                                                                                     to see push and fetch link of your repository
 
-git clone <URL>	<local_foldername>					//generate a copy of remote repo in local, can be used only once
-git pull <URL>								//sync remote and local repo; git fetch + git merge
+git clone <URL>	<local_folder_name>					    //generate a copy of remote repo in local, can be used only once
+git pull <URL>								            //sync remote and local repo; git fetch + git merge
 
 
 
 Push Commands:
 
-git push -u origin master                                                                         to push a your repository on github
+git push -u origin master                                                                         to push your repository on GitHub
 
 
 
@@ -48,7 +48,7 @@ git branch                                                                      
 
 
 Merge Commands:
-git merge dev								//merge the "dev" branch in current branch
+git merge dev								            //merge the "dev" branch in current branch
 
 
 
@@ -88,7 +88,7 @@ git rm -cached <filename>
 
 Name Changing Commands:
 
-git mv <beforefilename> <afterfilename>                                                           to rename a file
+git mv <before_filename> <after_filename>                                                           to rename a file
 
 
 
